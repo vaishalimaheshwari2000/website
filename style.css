@@ -1208,3 +1208,36 @@ footer {
 /* .footer-img{
   width:100px;
 } */
+
+
+@media (max-width: 750px) {
+  .right {
+    width: 100%;
+    margin-left:auto;
+  }
+  
+  .form {
+    display: block;
+   
+  }
+  .form-right p{
+    font-size: 16px;
+  }
+  .contact{
+    
+    margin-top:5%;
+    width:100%;
+    margin-left:auto;
+  }
+  
+}
+@media (max-width: 550px) {
+ 
+  footer .footer-container{
+    display: block;
+  }
+  .footer-column p{
+    font-size: 16px;
+  }
+
+}
